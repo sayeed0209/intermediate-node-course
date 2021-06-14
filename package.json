@@ -1,20 +1,25 @@
 {
-  "name": "intermediateJS-template",
+  "name": "intermediate-node-course",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Check out the issues of this repo for the course materials.",
+  "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sayeed0209/intermediate-node-course.git"
+  },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
-    "bcrypt": "^3.0.6",
+  "bugs": {
+    "url": "https://github.com/sayeed0209/intermediate-node-course/issues"
+  },
+  "homepage": "https://github.com/sayeed0209/intermediate-node-course#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
     "express": "^4.17.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.7.7",
-    "nodemon": "^1.19.3"
+    "mongoose": "^5.12.13"
   }
 }
